@@ -23,6 +23,10 @@ apt install -y containerd.io
 apt install -y docker-buildx-plugin
 apt install -y docker-compose-plugin
 apt install -y keepassxc
+apt install -y build-essential
+apt install -y gdb
+apt install -y make
+apt install -y cmake
 
 cat bashrc_extras.txt >> ~/.bashrc
 
