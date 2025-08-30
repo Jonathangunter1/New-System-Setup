@@ -28,6 +28,15 @@ apt install -y gdb
 apt install -y make
 apt install -y cmake
 
+apt install -y telnet
+apt install -y net-tools
+apt install -y iproute2
+apt install -y dnsutils
+apt install -y traceroute
+apt install -y nmap
+apt install -y tcpdump
+apt install -y whois
+
 cat bashrc_extras.txt >> ~/.bashrc
 
 echo -e "\n#########################\nSetup Complete! \n#########################"
