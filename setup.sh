@@ -28,6 +28,7 @@ apt install -y gdb
 apt install -y make
 apt install -y cmake
 
+# Networking Tools
 apt install -y telnet
 apt install -y net-tools
 apt install -y iproute2
@@ -36,6 +37,11 @@ apt install -y traceroute
 apt install -y nmap
 apt install -y tcpdump
 apt install -y whois
+
+# Python Stuff
+apt install -y python3
+apt install -y python3-pip
+apt install -y python3-venv
 
 cat bashrc_extras.txt >> ~/.bashrc
 
